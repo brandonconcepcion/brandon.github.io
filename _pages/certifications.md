@@ -46,3 +46,5 @@ Here are my professional certifications and completed courses from various platf
 ---
 
 _This page is regularly updated as I complete new certifications and courses. Last updated: [Current Date]_
+
+
