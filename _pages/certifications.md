@@ -9,7 +9,7 @@ Here are my professional certifications and completed courses from various platf
 
 ## LinkedIn Learning Certifications
 
-### Data Science & Analytics
+<!-- ### Data Science & Analytics
 
 - **Data Science Foundations: Fundamentals** - LinkedIn Learning
 - **Python for Data Science Essential Training** - LinkedIn Learning
@@ -41,7 +41,7 @@ Here are my professional certifications and completed courses from various platf
 ### Data & Analytics
 
 - **Tableau Desktop Specialist** - Tableau
-- **Power BI Data Analyst Associate** - Microsoft
+- **Power BI Data Analyst Associate** - Microsoft -->
 
 ---
 

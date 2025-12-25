@@ -70,7 +70,7 @@ author_profile: false
       <div class="playlist-info">
         <div class="playlist-type">Playlist</div>
         <h1>Professional Experiences</h1>
-        <div class="playlist-description">Brandon • 4 experiences</div>
+        <div class="playlist-description">Brandon • 5 experiences</div>
       </div>
     </div>
 
@@ -96,6 +96,22 @@ author_profile: false
         <div class="song-number">1</div>
         <div class="song-info">
           <div class="album-art">
+            <img src="/images/experiences/tesla.png" alt="Tesla" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+          </div>
+          <div class="song-details">
+            <h4>Machine Learning Engineering Intern</h4>
+            <p>Charging Data Modeling team</p>
+          </div>
+        </div>
+        <div class="song-company">Tesla</div>
+        <div class="song-date">Jan. 2026</div>
+        <div class="song-duration">May. 2026</div>
+      </div>
+
+      <div class="song-item">
+        <div class="song-number">1</div>
+        <div class="song-info">
+          <div class="album-art">
             <img src="/images/experiences/databricks.png" alt="Databricks" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
           </div>
           <div class="song-details">
@@ -106,22 +122,6 @@ author_profile: false
         <div class="song-company">Databricks</div>
         <div class="song-date">Sep. 2025</div>
         <div class="song-duration">Jan. 2026</div>
-      </div>
-
-      <div class="song-item">
-        <div class="song-number">2</div>
-        <div class="song-info">
-          <div class="album-art">
-            <img src="/images/experiences/oracle.png" alt="Oracle" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
-          </div>
-          <div class="song-details">
-            <h4>AI Product Consultant</h4>
-            <p>Agentic AI Applications</p>
-          </div>
-        </div>
-        <div class="song-company">Oracle</div>
-        <div class="song-date">Sep. 2025</div>
-        <div class="song-duration">Dec. 2025</div>
       </div>
 
       <div class="song-item">
@@ -141,29 +141,13 @@ author_profile: false
       </div>
 
       <div class="song-item">
-        <div class="song-number">4</div>
-        <div class="song-info">
-          <div class="album-art">
-            <img src="/images/experiences/zorrofi.png" alt="ZorroFi" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
-          </div>
-          <div class="song-details">
-            <h4>Machine Learning Intern</h4>
-            <p>Chatbot Evaluations</p>
-          </div>
-        </div>
-        <div class="song-company">ZorroFi</div>
-        <div class="song-date">Jun. 2024</div>
-        <div class="song-duration">Sep. 2024</div>
-      </div>
-
-      <div class="song-item">
         <div class="song-number">5</div>
         <div class="song-info">
           <div class="album-art">
             <img src="/images/experiences/jambase.png" alt="Spotify" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
           </div>
           <div class="song-details">
-            <h4>Contract Data Scienc Intern</h4>
+            <h4>Contract Data Science Intern</h4>
             <p>Chatbot Development</p>
           </div>
         </div>
