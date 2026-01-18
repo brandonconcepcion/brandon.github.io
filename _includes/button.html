@@ -1,0 +1,24 @@
+{% comment %}
+  Reusable button component
+  
+  Parameters:
+  - href: URL for the button link
+  - text: Button text
+  - class: Additional CSS classes (optional)
+  - target: Link target (optional, default: _self)
+  - download: Download attribute (optional)
+{% endcomment %}
+
+{% assign button_class = "linkedin-btn" %}
+{% if include.class %}
+  {% assign button_class = button_class | append: " " | append: include.class %}
+{% endif %}
+
+{% assign button_target = include.target | default: "_self" %}
+
+<a href="{{ include.href }}" 
+   class="{{ button_class }}" 
+   {% if include.target %}target="{{ button_target }}"{% endif %}
+   {% if include.download %}download="{{ include.download }}"{% endif %}>
+  {{ include.text }}
+</a>

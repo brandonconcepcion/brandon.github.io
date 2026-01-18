@@ -1,0 +1,70 @@
+{% comment %}
+  Reusable experiences sidebar component
+  Uses navigation data from _data/navigation.yml
+{% endcomment %}
+
+<div class="spotify-sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-title">Brandon Concepcion</div>
+    <div class="sidebar-subtitle">Personal Website</div>
+  </div>
+
+  <div class="playlist-section">
+    <div class="section-title">Navigation</div>
+    <a href="/" class="sidebar-item {% if page.url == '/' %}active{% endif %}">
+      <div class="playlist-icon liked">🏠</div>
+      <span class="playlist-name">Home</span>
+    </a>
+    {% for item in site.data.navigation.main %}
+      {% assign icon = "📄" %}
+      {% if item.title == "Experiences" %}{% assign icon = "💼" %}{% endif %}
+      {% if item.title == "Teaching" %}{% assign icon = "📚" %}{% endif %}
+      {% if item.title == "Coursework" %}{% assign icon = "🎓" %}{% endif %}
+      {% if item.title == "Portfolio" %}{% assign icon = "🚀" %}{% endif %}
+      {% if item.title == "Certifications" %}{% assign icon = "🎖️" %}{% endif %}
+      {% if item.title == "Acknowledgements" %}{% assign icon = "🙏" %}{% endif %}
+    <a href="{{ item.url }}" class="sidebar-item {% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}">
+      <div class="playlist-icon liked">{{ icon }}</div>
+      <span class="playlist-name">{{ item.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="playlist-section">
+    <div class="section-title">Connect</div>
+    {% if site.social.links %}
+      {% for link in site.social.links %}
+        {% if link contains "linkedin" %}
+          <a href="{{ link }}" class="sidebar-item">
+            <div class="playlist-icon workout">💼</div>
+            <span class="playlist-name">LinkedIn</span>
+          </a>
+        {% elsif link contains "github" %}
+          <a href="{{ link }}" class="sidebar-item">
+            <div class="playlist-icon chill">💻</div>
+            <span class="playlist-name">GitHub</span>
+          </a>
+        {% elsif link contains "mailto" %}
+          <a href="{{ link }}" class="sidebar-item">
+            <div class="playlist-icon liked">📧</div>
+            <span class="playlist-name">Email</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <!-- Fallback if social links not configured -->
+      <a href="mailto:brandon@example.com" class="sidebar-item">
+        <div class="playlist-icon liked">📧</div>
+        <span class="playlist-name">Email</span>
+      </a>
+      <a href="https://linkedin.com/in/brandonconcepcion" class="sidebar-item">
+        <div class="playlist-icon workout">💼</div>
+        <span class="playlist-name">LinkedIn</span>
+      </a>
+      <a href="https://github.com/brandonconcepcion" class="sidebar-item">
+        <div class="playlist-icon chill">💻</div>
+        <span class="playlist-name">GitHub</span>
+      </a>
+    {% endif %}
+  </div>
+</div>

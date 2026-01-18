@@ -1,0 +1,18 @@
+{% comment %}
+  Reusable acknowledgement card component
+  
+  Parameters:
+  - image: Path to the person's image
+  - name: Person's name
+  - description: Description text (supports markdown)
+{% endcomment %}
+
+<div class="acknowledgement-item">
+  <img class="acknowledgement-picture" 
+       src="{{ include.image }}" 
+       alt="{{ include.name }}">
+  <div class="acknowledgement-info">
+    <p class="acknowledgement-name">{{ include.name }}</p>
+    <div class="acknowledgement-description">{{ include.description | markdownify }}</div>
+  </div>
+</div>

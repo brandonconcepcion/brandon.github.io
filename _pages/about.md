@@ -7,25 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-.linkedin-btn {
-  background-color: #ffffff; /* White background */
-  color: #000; /* Black text */
-  padding: 10px 20px;
-  border: solid; /* Black border */
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  text-decoration: none; /* Removes underline */
-}
-
-.linkedin-btn:hover {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-</style>
+<link rel="stylesheet" href="/assets/css/about.css">
 
 Hi! I'm Brandon Lee Concepcion, a current undergraduate studying Data Science and Computer Science at the University of California, Berkeley.
 
@@ -34,6 +16,5 @@ Outside of my own academics, I'm committed to empowering students to accomplish 
 My interests include Smiskis, Marvel Studios, the gym, and walking my dogs.
 
 <!-- <a href="files/Concepcion_Brandon_DS_26_Resume.pdf" class="linkedin-btn" target="_blank">My Resume!</a> -->
-
 
 This website was last updated on Dec 25, 2025

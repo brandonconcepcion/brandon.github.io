@@ -10,12 +10,10 @@ author_profile: false
   <!-- Spotify Sidebar -->
   <div class="spotify-sidebar">
     <div class="sidebar-header">
-      <div class="sidebar-title">Brandon Concepcion</div>
-      <div class="sidebar-subtitle">Personal Website</div>
+      <div class="sidebar-title">Brandon C</div>
     </div>
 
     <div class="playlist-section">
-      <div class="section-title">Navigation</div>
       <a href="/" class="sidebar-item">
         <div class="playlist-icon liked">🏠</div>
         <span class="playlist-name">Home</span>
@@ -42,21 +40,6 @@ author_profile: false
       </a>
     </div>
 
-    <div class="playlist-section">
-      <div class="section-title">Connect</div>
-      <a href="mailto:brandon@example.com" class="sidebar-item">
-        <div class="playlist-icon liked">📧</div>
-        <span class="playlist-name">Email</span>
-      </a>
-      <a href="https://linkedin.com/in/brandonconcepcion" class="sidebar-item">
-        <div class="playlist-icon workout">💼</div>
-        <span class="playlist-name">LinkedIn</span>
-      </a>
-      <a href="https://github.com/brandonconcepcion" class="sidebar-item">
-        <div class="playlist-icon chill">💻</div>
-        <span class="playlist-name">GitHub</span>
-      </a>
-    </div>
 
   </div>
 
@@ -128,7 +111,7 @@ author_profile: false
         <div class="song-number">3</div>
         <div class="song-info">
           <div class="album-art">
-            <img src="/images/experiences/dssberkeley.jpeg" alt="DSS" style="width: 100%; height: 100%; object-fit: cover;> border-radius: 4px;">
+            <img src="/images/experiences/dssberkeley.jpeg" alt="DSS" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
           </div>
           <div class="song-details">
             <h4>President</h4>

@@ -1,0 +1,57 @@
+/* Acknowledgements Page Styles */
+.acknowledgements-grid {
+  display: grid;
+  grid-template-columns: 430px 430px;
+  margin-top: 20px;
+  column-gap: 13px;
+  margin-left: 5px;
+  justify-content: left;
+  align-items: start;
+}
+
+.acknowledgement-picture {
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.acknowledgement-item {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.acknowledgement-description {
+  font-size: 15px;
+  line-height: 1.5;
+  width: 89%;
+  margin-top: 2px;
+}
+
+.acknowledgement-description p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.acknowledgement-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.acknowledgement-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .acknowledgements-grid {
+    grid-template-columns: 1fr;
+  }
+}

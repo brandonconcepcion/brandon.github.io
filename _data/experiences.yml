@@ -1,0 +1,47 @@
+# Professional Experiences
+# Ordered by most recent first
+
+- number: 1
+  title: "Machine Learning Engineering Intern"
+  subtitle: "Charging Data Modeling team"
+  company: "Tesla"
+  start_date: "Jan. 2026"
+  end_date: "May. 2026"
+  image: "/images/experiences/tesla.png"
+  image_alt: "Tesla"
+
+- number: 2
+  title: "AI Consultant"
+  subtitle: "Agentic AI Applications"
+  company: "Databricks"
+  start_date: "Sep. 2025"
+  end_date: "Jan. 2026"
+  image: "/images/experiences/databricks.png"
+  image_alt: "Databricks"
+
+- number: 3
+  title: "President"
+  subtitle: "Data Science Society at Berkeley"
+  company: "Data Science Society"
+  start_date: "May. 2025"
+  end_date: "Dec. 2025"
+  image: "/images/experiences/dssberkeley.jpeg"
+  image_alt: "DSS"
+
+- number: 4
+  title: "Head Teaching Assistant"
+  subtitle: "CS 187: Data Engineering"
+  company: "UC Berkeley"
+  start_date: "Jan. 2025"
+  end_date: "May. 2025"
+  image: "/images/experiences/cdss.png"
+  image_alt: "DE"
+
+- number: 5
+  title: "Software Developer"
+  subtitle: "Course Curriculum Development"
+  company: "UC Berkeley"
+  start_date: "Jan. 2025"
+  end_date: "Jun. 2025"
+  image: "/images/experiences/cdss.png"
+  image_alt: "CDSS"
