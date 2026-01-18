@@ -109,7 +109,7 @@ author_profile: false
       </div>
 
       <div class="song-item">
-        <div class="song-number">1</div>
+        <div class="song-number">2</div>
         <div class="song-info">
           <div class="album-art">
             <img src="/images/experiences/databricks.png" alt="Databricks" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
@@ -128,6 +128,22 @@ author_profile: false
         <div class="song-number">3</div>
         <div class="song-info">
           <div class="album-art">
+            <img src="/images/experiences/dssberkeley.jpeg" alt="DSS" style="width: 100%; height: 100%; object-fit: cover;> border-radius: 4px;">
+          </div>
+          <div class="song-details">
+            <h4>President</h4>
+            <p>Data Science Society at Berkeley</p>
+          </div>
+        </div>
+        <div class="song-company">Data Science Society</div>
+        <div class="song-date">May. 2025</div>
+        <div class="song-duration">Dec. 2025</div>
+      </div>
+
+      <div class="song-item">
+        <div class="song-number">4</div>
+        <div class="song-info">
+          <div class="album-art">
             <img src="/images/experiences/cdss.png" alt="DE" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
           </div>
           <div class="song-details">
@@ -142,22 +158,6 @@ author_profile: false
 
       <div class="song-item">
         <div class="song-number">5</div>
-        <div class="song-info">
-          <div class="album-art">
-            <img src="/images/experiences/jambase.png" alt="Spotify" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
-          </div>
-          <div class="song-details">
-            <h4>Contract Data Science Intern</h4>
-            <p>Chatbot Development</p>
-          </div>
-        </div>
-        <div class="song-company">JamBase</div>
-        <div class="song-date">Jan. 2025</div>
-        <div class="song-duration">May. 2025</div>
-      </div>
-
-      <div class="song-item">
-        <div class="song-number">6</div>
         <div class="song-info">
           <div class="album-art">
             <img src="/images/experiences/cdss.png" alt="CDSS" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
